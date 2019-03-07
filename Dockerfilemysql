@@ -1,0 +1,13 @@
+FROM mysql
+
+
+ENV MYSQL_ROOT_PASSWORD=root
+
+ENV MYSQL_DATABASE=sampledb
+ENV MYSQL_USER=admin
+ENV MYSQL_PASSWORD=admin
+ENV MYSQL_DATA_DIR=/var/lib/mysql \
+    MYSQL_RUN_DIR=/run/mysqld \
+   MYSQL_LOG_DIR=/var/log/mysql
+EXPOSE 3306
+
