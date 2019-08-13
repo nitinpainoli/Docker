@@ -3,7 +3,7 @@ node() {
    
    stage('Build & Deploy Docker') {
        
-        sh '''echo 'hii''''
+        echo 'hii'
     }
 
     stage('Microbadger Webhook') {
